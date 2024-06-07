@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(190, 38, 59);
+      }
+
+      header {
+        border-bottom: 3px solid rgb(117, 0, 0);
+        display: flex;
+        gap: 570px;
+        align-items: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background: rgb(246, 213, 213);
+        background: linear-gradient(
+          90deg,
+          rgba(246, 213, 213, 1) 0%,
+          rgba(195, 17, 17, 1) 28%,
+          rgba(182, 11, 11, 1) 67%
+        );
+        color: rgb(248, 247, 247);
+        text-align: center;
+        padding: 2px 0;
+        .bajra {
+          padding-left: 20px;
+          width: 80px;
+          height: 30px;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .profile-pic {
+          height: 50px;
+          width: 50px;
+
+          img {
+            height: 100%;
+            width: 100%;
+            border-radius: 60px;
+            box-shadow: 6px 6px black;
+          }
+        }
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+        margin: 20px auto;
+        padding: 0 20px;
+        gap: 20px;
+        :hover {
+          background-color: rgb(170, 34, 34);
+          color: white;
+          cursor: pointer;
+          transition: transform 0.2s;
+        }
+      }
+
+      .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 10px 10px black;
+        padding: 30px;
+        background-color: #ffe1e1;
+        border-radius: 5px;
+
+        .image {
+          height: 260px;
+          width: 330px;
+
+          img {
+            border-radius: 5px;
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+
+      .project h2 {
+        margin-top: 0;
+      }
+
+      .project p {
+        margin-top: 10px;
+      }
+
+      footer {
+        border-top: 3px solid black;
+        background-color: rgb(190, 38, 59);
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="bajra">
+        <img
+          src="https://bajratechnologies.com/web/image/website/1/logo/Bajra%20Technologies?unique=556ebe6"
+          alt=""
+        />
+      </div>
+      <h1>My Projects</h1>
+      <div class="profile-pic">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="project">
+        <h2>Address Book</h2>
+        <div class="image"><img src="Addressbook.jpg" alt="img" /></div>
+        <p>Address Book created by using Shell Scripting</p>
+        <a href="https://github.com/nishanrana0010/address_book"
+          >View Project</a
+        >
+      </div>
+
+      <div class="project">
+        <h2>Project 2</h2>
+        <div class="image">
+          <img src="Untitled design (2).jpg" alt="img" />
+        </div>
+        <p>Description of Project 2</p>
+        <a href="#">View Project</a>
+      </div>
+
+      <div class="project">
+        <h2>Project 3</h2>
+        <div class="image">
+          <img src="Untitled design (2).jpg" alt="img" />
+        </div>
+        <p>Description of Project 3</p>
+        <a href="#" style="font-size: 16px">View Project</a>
+      </div>
+    </div>
+
+    <footer>2024 Nishan @ Bajra Technologies</footer>
+  </body>
+</html>
